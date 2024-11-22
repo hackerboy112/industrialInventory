@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Inventory</title>
+</head>
+<body>
+    
+    <header>
+        <h1>INDUSTRIAL INVENTORY</h1>
+    </header>
+
+    <main>
+        <form id="orderForm">
+            <p>
+                <label for="product">Select Product:</label>
+                <select id="product" name="product_id" required>
+                    <option value="" disabled selected>Select a product</option>
+                </select>
+            </p>
+            <p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required />
+            </p>
+            <p>
+                <label for="customerName">Customer Name:</label>
+                <input type="text" id="customerName" name="customer_name" required />
+            </p>
+            <p>
+                <label for="customerEmail">Customer Email:</label>
+                <input type="email" id="customerEmail" name="customer_email" required />
+            </p>
+            <button type="submit">Submit Order</button>
+        </form>
+
+        <section>
+            <h1>Purchase History:</h1>
+            <ul id="purchaseHistory"></ul>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Hydraulic Pump",
+      "articleNumber": "HP-1001",
+      "price": 299.99,
+      "description": "A high-efficiency hydraulic pump suitable for various industrial applications."
+    },
+    {
+      "name": "Industrial Drill",
+      "articleNumber": "ID-2020",
+      "price": 149.50,
+      "description": "A durable industrial drill with variable speed settings and ergonomic design."
+    },
+    {
+      "name": "Safety Helmet",
+      "articleNumber": "SH-3050",
+      "price": 25.75,
+      "description": "A lightweight safety helmet with adjustable straps and high impact resistance."
+    },
+    {
+      "name": "Welding Machine",
+      "articleNumber": "WM-4500",
+      "price": 499.00,
+      "description": "A versatile welding machine with multiple modes and high precision control."
+    },
+    {
+      "name": "Conveyor Belt",
+      "articleNumber": "CB-6000",
+      "price": 1200.00,
+      "description": "A heavy-duty conveyor belt designed for efficient material handling in factories."
+    }
+  ]
