@@ -1,4 +1,4 @@
-# INDUSTIAL INVENTORY
+# INDUSTRIAL INVENTORY
 
 Simple web application so you can order massive amounts of industrial products.
 
